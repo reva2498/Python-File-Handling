@@ -1,9 +1,9 @@
-f = open("Poem.txt",'r')
+f = open("article.txt",'r')
 c_to = 0
 c_the = 0
 for line in f:
-  c_to += line.count('to')
-  c_the += line.count('the')
-print(c_to)
-print(c_the)
+  c_this += line.count('this')
+  c_these += line.count('these')
+print(c_this)
+print(c_these)
 
