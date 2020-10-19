@@ -1,6 +1,6 @@
 f = open("article.txt",'r')
-c_to = 0
-c_the = 0
+c_this = 0
+c_these = 0
 for line in f:
   c_this += line.count('this')
   c_these += line.count('these')
