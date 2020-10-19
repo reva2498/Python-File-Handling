@@ -1,0 +1,9 @@
+def countmy():
+f = open("DATA.TXT","r")
+count = 0
+x = f.read()
+word = x.split()
+for i in word:
+  if(i=="the"):
+    count=count+1
+print("the",count,"times")
