@@ -1,0 +1,1 @@
+Write a method/function DISPLAYWORDS() in python to read lines from a text file STORY.TXT, and display those words, which are less than 4 characters.
