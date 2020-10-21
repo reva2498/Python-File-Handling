@@ -1,0 +1,11 @@
+import pickle
+roll = input('Enter roll number that you want to search in binary file:')
+file = open("student.dat", "rb")
+list = pickle.load(file)
+file.close()
+for x in list:
+if roll in x['roll']:
+print("Name of student is:",x['name'])
+break
+else:
+print("Record not found")
